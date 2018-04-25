@@ -21,5 +21,6 @@ public class MainActivity_WPS extends AppCompatActivity {
         String message = editText1.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
+        /** Commentario */
     }
 }
